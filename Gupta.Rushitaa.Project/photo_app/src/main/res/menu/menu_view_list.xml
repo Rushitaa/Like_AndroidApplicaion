@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rushitaa.photo_app.ViewListActivity">
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/refresh"
+        app:showAsAction="always"
+        android:title="Refresh"
+        >
+    </item>
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/logout_label"
+        app:showAsAction="always"
+        >
+    </item>
+</menu>

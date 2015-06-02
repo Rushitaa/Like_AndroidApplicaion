@@ -1,0 +1,161 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.rushitaa.photo_app.ViewActivity"
+    android:background="@android:color/background_light">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="#82bdc7d2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:id="@+id/textView"
+
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:id="@+id/usernameTextView"
+            android:textSize="20dp"
+            android:textColor="#000"
+
+            android:paddingRight="5dp"
+            android:ems="10"
+            android:gravity="left"
+            android:layout_weight="0.3" />
+        <requestFocus />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:layout_marginTop="10dp"
+        android:background="#82bdc7d2"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email id:"
+            android:id="@+id/textView2"
+
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Id"
+            android:id="@+id/emailidTextView"
+            android:textSize="20dp"
+            android:textColor="#ff050505"
+
+            android:gravity="left"
+            android:paddingRight="5dp"
+            android:ems="10"
+            android:layout_weight="0.3" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="#82bdc7d2"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Likes:"
+            android:id="@+id/textView3"
+
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Likes"
+            android:textSize="20dp"
+            android:textColor="#ff050505"
+
+            android:gravity="left"
+            android:paddingRight="5dp"
+            android:id="@+id/likesTextView"
+            android:ems="10"
+            android:layout_weight="0.3" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="#82bdc7d2"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:id="@+id/textView4"
+
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:id="@+id/locationTextView"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_blue_dark"
+
+            android:gravity="left"
+            android:paddingRight="5dp"
+            android:ems="10"
+            android:layout_weight="0.3" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send an Email!"
+            android:id="@+id/email_button"
+            android:background="@android:color/holo_red_dark"
+
+            android:ems="10"
+            android:textColor="@android:color/background_light"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_weight="1" />
+    </TableRow>
+
+</TableLayout>
